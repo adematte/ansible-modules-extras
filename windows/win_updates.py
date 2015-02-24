@@ -41,6 +41,12 @@ options:
       - (anything that is a valid update category)
     default: critical
     aliases: []
+  logPath:
+    description:
+      - Where to log command output to
+    require: false
+    default: c:\\ansible-playbook.log
+    aliases: []
 author: Peter Mounce
 '''
 
